@@ -32,7 +32,7 @@ function Hero() {
       <div className="hero-image-wrap">
         <img
           className="hero-image"
-          src="/images/husky-hero.png"
+          src={import.meta.env.BASE_URL + "images/husky-hero.png"}
           alt="A Siberian Husky with icy blue eyes"
         />
       </div>
